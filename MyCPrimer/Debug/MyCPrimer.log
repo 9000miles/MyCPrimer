@@ -1,0 +1,5 @@
+﻿  MyCPrimer.cpp
+d:\myworkspace\myprojectspace\mycprimer\mycprimer\mycprimer.cpp(41): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\myworkspace\myprojectspace\mycprimer\mycprimer\mycprimer.cpp(69): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“const char *”
+d:\myworkspace\myprojectspace\mycprimer\mycprimer\mycprimer.cpp(69): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“const char *”
+  MyCPrimer.vcxproj -> D:\MyWorkSpace\MyProjectSpace\MyCPrimer\Debug\MyCPrimer.exe
