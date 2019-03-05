@@ -1,6 +1,6 @@
 ﻿// MyCPrimer.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-
+#define  _CRT_SECURE_NO_WARNINGS
 #include "pch.h"
 #include <iostream>
 #include "stdlib.h"
@@ -14,6 +14,7 @@ void Print(int array[5])
 		printf("%d  ", array[i]);
 	}
 }
+
 void Printf(int *p, int length)
 {
 	int i = 0;
@@ -59,15 +60,56 @@ void ArrayTest()
 	//Print(a);
 	Printf(a, 5);
 }
+
+int GetMem(char **myp1, int *mylen1, char **myp2, int *mylen2)
+{
+	int ret = 0;
+	char *temp1, *temp2;
+	temp1 = (char *)malloc(100);
+	strcpy(temp1, "temp11111111");
+
+	*mylen1 = strlen(temp1);
+	*myp1 = temp1;
+
+	temp2 = (char *)malloc(100);
+	strcpy(temp2, "temp2222222");
+
+	*mylen2 = strlen(temp2);
+	*myp2 = temp2;
+
+	return ret;
+}
+
 int main()
 {
-	const char *p1 = NULL;
-	const char *p2 = NULL;
-	p1 = GetStr1();
-	p2 = GetStr2();
-	printf("p1: %s,    p2: %s\n", p1, p2);
-	printf("p1: %d,    p2: %d\n", p1, p2);
+	//const char *p1 = NULL;
+	//const char *p2 = NULL;
+	//p1 = GetStr1();
+	//p2 = GetStr2();
+	//printf("p1: %s,    p2: %s\n", p1, p2);
+	//printf("p1: %d,    p2: %d\n", p1, p2);
 
+	int ret = 0;
+	char *p1 = NULL;
+	int len1 = 0;
+	char *p2 = NULL;
+	int len2 = 0;
+
+	ret = GetMem(&p1, &len1, &p2, &len2);
+	printf("p1:%s\n", p1);
+	printf("p2:%s\n", p2);
+
+	if (p1 != NULL)
+	{
+		free(p1);
+		p1 = NULL;
+	}
+
+	if (p2 != NULL)
+	{
+		free(p2);
+		p2 = NULL;
+	}
 	system("pause");
 }
 
