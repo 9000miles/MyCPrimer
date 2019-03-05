@@ -1,9 +1,13 @@
-﻿  pch.cpp
-  MyCPrimer.cpp
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(41): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(41): warning C4313: “printf”: 格式字符串中的“%d”与“int *”类型的参数 1 冲突
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(69): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“const char *”
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(69): warning C4313: “printf”: 格式字符串中的“%d”与“const char *”类型的参数 1 冲突
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(69): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“const char *”
-d:\myworkspace\myprojectspace\mycprimer.git\mycprimer\mycprimer.cpp(69): warning C4313: “printf”: 格式字符串中的“%d”与“const char *”类型的参数 2 冲突
-  MyCPrimer.vcxproj -> D:\MyWorkSpace\MyProjectSpace\MyCPrimer.git\x64\Debug\MyCPrimer.exe
+﻿  dm03_间接赋值的技术推演.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm03_间接赋值的技术推演.c(2): fatal error C1853: “x64\Debug\MyCPrimer.pch”预编译头文件来自编译器的早期版本，或者预编译头为 C++ 而在 C 中使用它(或相反)
+  dm04_指针的输入和输出特性.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm04_指针的输入和输出特性.c(83): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  dm05_字符串基本操作.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm05_字符串基本操作.c(107): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  dm06_一级指针内存模型建立.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm06_一级指针内存模型建立.c(17): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  dm07_字符串做函数参数.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm07_字符串做函数参数.c(160): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  dm08_项目开发字符串模型strstr_while.c
+d:\myworkspace\c++\[传智播客]最适合自学的c++基础视频（深入浅出版）\01_c语言提高\c提高day02_总结\源码\dm08_项目开发字符串模型strstr_while.c(118): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...
